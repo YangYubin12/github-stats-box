@@ -21,7 +21,7 @@ jobs:
             # - run: npm ci
             - run: npx github-stats-box@1
               env:
-                  GH_TOKEN: ${{ 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 }} # Do not edit, defined in secrets
+                  GH_TOKEN: ${{ secrets.GH_TOKEN }} # Do not edit, defined in secrets
 
                   # Edit the following environment variables
                   GIST_ID: 40f9c679e320efcf896daedb0ffe18e0 # The ID portion from your gist url
